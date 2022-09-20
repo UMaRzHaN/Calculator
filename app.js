@@ -1,6 +1,6 @@
 let calc = document.querySelector(".calc");
 let box = document.querySelector(".box");
-let a, b, c, d, e;
+let a, b, c, d;
 calc.addEventListener("keydown", (e) => {
   if (e.key == "Enter") {
     a = document.querySelector(".calc").value;
@@ -34,7 +34,7 @@ calc.addEventListener("keydown", (e) => {
           break;
       }
     }
-    box.innerHTML += b;
+    box.innerHTML = b;
     console.log("Alish Qutoooooooooooooq")
   }
 });
